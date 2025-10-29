@@ -1,56 +1,315 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Professional Profile"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+## About Me
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+<div class="about-item" style="margin-bottom: 2.5em; padding: 1.5em; border-left: 4px solid #27ae60; background: linear-gradient(to right, #f8f9fa 0%, #ffffff 100%); border-radius: 4px;">
+  <p style="font-size: 1.05em; line-height: 1.7; color: #2c3e50; margin: 0;">
+    Hello! I am a robotics researcher at LG Electronics HS Company, specializing in Computer Vision, 3D Reconstruction, Robotics, and Neural Radiance Fields (NeRF). Recently, I have developed a strong interest in LLM/VLM technologies and AI Agents, exploring how these emerging technologies can enhance human-robot interaction and task planning. I completed both my Bachelor's degree in Computer Science (with a double major in Mathematics) and Master's degree in Computer Vision from Hanyang University.
+  </p>
+</div>
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+---
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## Technical Skills
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+<div class="skills-item" style="margin-bottom: 2.5em; padding: 1.5em; border-left: 4px solid #16a085; background: linear-gradient(to right, #f8f9fa 0%, #ffffff 100%); border-radius: 4px;">
+  <div style="margin-bottom: 1em;">
+    <strong style="color: #2c3e50; font-size: 1.05em;">Domains:</strong>
+    <span style="color: #495057; margin-left: 0.5em;">Computer Vision, 3D Reconstruction, Visual SLAM, NeRF, AI Agent</span>
+  </div>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+  <div style="margin-bottom: 1em;">
+    <strong style="color: #2c3e50; font-size: 1.05em;">Programming Languages:</strong>
+    <span style="color: #495057; margin-left: 0.5em;">Python, C/C++</span>
+  </div>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+  <div style="margin-bottom: 1em;">
+    <strong style="color: #2c3e50; font-size: 1.05em;">AI / CV Frameworks:</strong>
+    <span style="color: #495057; margin-left: 0.5em;">PyTorch, NumPy, OpenCV</span>
+  </div>
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+  <div style="margin-bottom: 1em;">
+    <strong style="color: #2c3e50; font-size: 1.05em;">LLM / VLM:</strong>
+    <span style="color: #495057; margin-left: 0.5em;">Transformers, LangChain, LangGraph, Ollama-python</span>
+  </div>
 
-**Markdown generator**
+  <div style="margin-bottom: 1em;">
+    <strong style="color: #2c3e50; font-size: 1.05em;">Visualization & Demo:</strong>
+    <span style="color: #495057; margin-left: 0.5em;">Rerun, Gradio</span>
+  </div>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+  <div>
+    <strong style="color: #2c3e50; font-size: 1.05em;">Languages:</strong>
+    <span style="color: #495057; margin-left: 0.5em;">Korean (Native), English</span>
+  </div>
+</div>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+---
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+## Work Experience
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<style>
+.experience-item, .education-item, .publication-item, .project-item {
+  margin-bottom: 2.5em;
+  padding: 1.5em;
+  border-left: 4px solid #3498db;
+  background: linear-gradient(to right, #f8f9fa 0%, #ffffff 100%);
+  border-radius: 4px;
+}
+
+.publication-item {
+  border-left-color: #9b59b6;
+}
+
+.project-item {
+  border-left-color: #e74c3c;
+}
+
+.education-item {
+  border-left-color: #f39c12;
+}
+
+.experience-header, .education-header, .publication-header, .project-header {
+  margin-bottom: 1em;
+  padding-bottom: 0.8em;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.job-title, .degree-title, .publication-title, .project-name {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.3em;
+}
+
+.company-info, .university-info {
+  font-size: 1.05em;
+  color: #495057;
+  font-weight: 500;
+  margin-bottom: 0.2em;
+}
+
+.date-range {
+  font-size: 0.95em;
+  color: #6c757d;
+  font-style: italic;
+}
+
+.project-section {
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  padding-left: 1em;
+  border-left: 3px solid #e1e4e8;
+}
+
+.project-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #34495e;
+  margin-bottom: 0.5em;
+}
+
+.project-date {
+  font-size: 0.9em;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.project-section ul, .education-item ul, .publication-item ul, .project-item ul {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.project-section li, .education-item li, .publication-item li, .project-item li {
+  margin-bottom: 0.4em;
+  line-height: 1.6;
+}
+
+.tech-stack {
+  font-size: 0.9em;
+  color: #16a085;
+  font-weight: 500;
+}
+
+.hashtag {
+  display: inline-block;
+  background-color: #e8f4f8;
+  color: #0095f6;
+  padding: 0.2em 0.6em;
+  margin: 0.2em 0.3em 0.2em 0;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.hashtag-container {
+  margin-top: 0.5em;
+  line-height: 2;
+}
+
+.publication-meta {
+  font-size: 0.95em;
+  color: #555;
+  margin-bottom: 0.3em;
+  line-height: 1.5;
+}
+
+.publication-meta strong {
+  color: #2c3e50;
+}
+</style>
+
+<div class="experience-item">
+  <div class="experience-header">
+    <div class="job-title">Associate Engineer</div>
+    <div class="company-info">LG Electronics, Seoul, South Korea</div>
+    <div class="date-range">February 2024 – Present</div>
+  </div>
+
+  <div class="project-section">
+    <div class="project-title">
+      On-Device LLM/VLM Agent Project
+      <span class="project-date">(February 2025 – Present)</span>
+    </div>
+    <ul>
+      <li>Led foundational research and development of an on-device LLM agent for cleaning robots</li>
+      <li>Focused on synthesizing performance evaluation datasets and converting diverse natural language commands into executable cleaning instructions</li>
+    </ul>
+    <div class="hashtag-container">
+      <span class="hashtag">#LLM</span>
+      <span class="hashtag">#LangGraph</span>
+    </div>
+  </div>
+
+  <div class="project-section">
+    <div class="project-title">
+      Commercial Robot Cleaner Development
+      <span class="project-date">(February 2024 – February 2025)</span>
+    </div>
+    <ul>
+      <li>Improved the Global Kidnap Recovery (GKR) feature for commercial robot cleaners</li>
+      <li>Developed and optimized a robust localization algorithm by fusing Vision and LiDAR sensor data</li>
+    </ul>
+    <div class="hashtag-container">
+      <span class="hashtag">#computer vision</span>
+      <span class="hashtag">#sensor fusion</span>
+    </div>
+  </div>
+</div>
+
+<div class="experience-item">
+  <div class="experience-header">
+    <div class="job-title">Intern</div>
+    <div class="company-info">LG Electronics, Seoul, South Korea</div>
+    <div class="date-range">July 2023 – August 2023</div>
+  </div>
+
+  <ul>
+    <li>Researched and developed a Marker SLAM system using fiducial markers (ArUco, AprilTag)</li>
+    <li>Conducted a full-cycle analysis, including experimental design, data acquisition, and performance evaluation to identify marker characteristics in various environments</li>
+  </ul>
+  <div class="hashtag-container">
+    <span class="hashtag">#Visual SLAM</span>
+    <span class="hashtag">#ArUco</span>
+    <span class="hashtag">#AprilTag</span>
+  </div>
+</div>
+
+---
+
+## Education
+
+<div class="education-item">
+  <div class="education-header">
+    <div class="degree-title">Master of Science, Computer Vision</div>
+    <div class="university-info">Hanyang University - Seoul, South Korea</div>
+    <div class="date-range">March 2022 – February 2024</div>
+  </div>
+  <ul>
+    <li><strong>GPA:</strong> 4.38 / 4.5</li>
+    <li><strong>Scholarship:</strong> LG Electronics industry scholarship</li>
+    <li><strong>Advisor:</strong> Professor Jongwoo Lim</li>
+  </ul>
+</div>
+
+<div class="education-item">
+  <div class="education-header">
+    <div class="degree-title">Bachelor of Science, Computer Science</div>
+    <div class="university-info">Hanyang University - Seoul, South Korea</div>
+    <div class="date-range">March 2016 – February 2022</div>
+  </div>
+  <ul>
+    <li><strong>GPA:</strong> 3.89 / 4.5</li>
+    <li><strong>Double Major:</strong> Mathematics</li>
+  </ul>
+</div>
+
+---
+
+## Publications
+
+<div class="publication-item">
+  <div class="publication-header">
+    <div class="publication-title">Fast Spatial Reasoning of Implicit 3D Maps through Explicit Near-Far Sampling Range Prediction</div>
+  </div>
+
+  <div style="display: flex; gap: 1.5em; align-items: flex-start;">
+    <div style="flex-shrink: 0;">
+      <img src="/images/method.png" alt="TSDF Sampling Method" style="width: 250px; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    </div>
+
+    <div style="flex: 1;">
+      <div class="publication-meta">
+        <strong>Authors:</strong> Chaerin Min*, Sehyun Cha*, Changhee Won, Jongwoo Lim (*Equal contribution)
+      </div>
+      <div class="publication-meta">
+        <strong>Conference:</strong> IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2024)
+      </div>
+      <div class="publication-meta">
+        <strong>Date:</strong> October 2024
+      </div>
+
+      <div style="margin-top: 1em;">
+        <a href="https://chaerinmin.github.io/TSDF-sampling/" target="_blank" style="display: inline-block; padding: 0.5em 1em; margin-right: 0.5em; background-color: #3498db; color: white; text-decoration: none; border-radius: 4px; font-weight: 500;">
+          🌐 Project Page
+        </a>
+        <a href="https://github.com/ChaerinMin/TSDF-sampling" target="_blank" style="display: inline-block; padding: 0.5em 1em; background-color: #2c3e50; color: white; text-decoration: none; border-radius: 4px; font-weight: 500;">
+          💻 GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+
+## Personal Projects
+
+<div class="project-item">
+  <div class="project-header">
+    <div class="project-name">py_sphorb</div>
+  </div>
+  <div style="font-size: 1.05em; color: #495057; margin-bottom: 1em;">
+    Python Bindings for SPHORB Feature Extractor
+  </div>
+  <ul>
+    <li>Created Python bindings for SPHORB, a feature extractor specialized for spherical images</li>
+  </ul>
+  <div style="margin-top: 1em;">
+    <a href="https://github.com/cshyundev/py_sphorb" target="_blank" style="display: inline-block; padding: 0.5em 1em; background-color: #2c3e50; color: white; text-decoration: none; border-radius: 4px; font-weight: 500;">
+      💻 GitHub
+    </a>
+  </div>
+    <div class="hashtag-container">
+    <span class="hashtag">#360 camera</span>
+    <span class="hashtag">#computer vision</span>
+    <span class="hashtag">#pybind11</span>
+  </div>
+</div>
