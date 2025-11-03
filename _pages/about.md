@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Professional Profile"
+title: "Profile"
 author_profile: true
 redirect_from:
   - /about/
@@ -11,7 +11,7 @@ redirect_from:
 
 <div class="about-item" style="margin-bottom: 2.5em; padding: 1.5em; border-left: 4px solid #27ae60; background: linear-gradient(to right, #f8f9fa 0%, #ffffff 100%); border-radius: 4px;">
   <p style="font-size: 1.05em; line-height: 1.7; color: #2c3e50; margin: 0;">
-    Hello! I am a robotics researcher at LG Electronics HS Company, specializing in Computer Vision, 3D Reconstruction, Robotics, and Neural Radiance Fields (NeRF). Recently, I have developed a strong interest in LLM/VLM technologies and AI Agents, exploring how these emerging technologies can enhance human-robot interaction and task planning. I completed both my Bachelor's degree in Computer Science (with a double major in Mathematics) and Master's degree in Computer Vision from Hanyang University.
+    Hello! Thank you for visiting my page. I am a robotics researcher at <a href="https://www.lge.co.kr/company/info/mission" target="_blank" style="color: #3498db; text-decoration: none; font-weight: 500;">LG Electronics</a> HS Company, specializing in Computer Vision, 3D Reconstruction, Robotics, and Neural Radiance Fields (NeRF). Recently, I have developed a strong interest in LLM/VLM technologies and AI Agents, exploring how these emerging technologies can enhance human-robot interaction and task planning. I completed both my Bachelor's degree in Computer Science (with a double major in Mathematics) and Master's degree in Computer Vision from <a href="https://www.hanyang.ac.kr/web/eng" target="_blank" style="color: #3498db; text-decoration: none; font-weight: 500;">Hanyang University</a>, where I was advised by <a href="https://sites.google.com/view/snu-rvlab/people?authuser=0" target="_blank" style="color: #3498db; text-decoration: none; font-weight: 500;">Professor Jongwoo Lim</a>. I'm always open to discussing new ideas, collaboration opportunities, or simply connecting with fellow researchers and engineers. Feel free to reach out anytime!
   </p>
 </div>
 
@@ -47,7 +47,7 @@ redirect_from:
 
   <div>
     <strong style="color: #2c3e50; font-size: 1.05em;">Languages:</strong>
-    <span style="color: #495057; margin-left: 0.5em;">Korean (Native), English</span>
+    <span style="color: #495057; margin-left: 0.5em;">Korean (Native), English(Limited proficiency)</span>
   </div>
 </div>
 
@@ -198,8 +198,8 @@ redirect_from:
       <li>Developed and optimized a robust localization algorithm by fusing Vision and LiDAR sensor data</li>
     </ul>
     <div class="hashtag-container">
-      <span class="hashtag">#computer vision</span>
-      <span class="hashtag">#sensor fusion</span>
+      <span class="hashtag">#Computer Vision</span>
+      <span class="hashtag">#Sensor Fusion</span>
     </div>
   </div>
 </div>
@@ -294,7 +294,29 @@ redirect_from:
 
 <div class="project-item">
   <div class="project-header">
-    <div class="project-name">py_sphorb</div>
+    <div class="project-name">spatialkit</div>
+  </div>
+  <div style="font-size: 1.05em; color: #495057; margin-bottom: 1em;">
+    Python Library for Computer Vision and 3D Robotics Research
+  </div>
+  <ul>
+    <li>Developed a personal Python library supporting computer vision algorithm prototyping and 3D vision research</li>
+  </ul>
+  <div style="margin-top: 1em;">
+    <a href="https://github.com/cshyundev/spatialkit" target="_blank" style="display: inline-block; padding: 0.5em 1em; background-color: #2c3e50; color: white; text-decoration: none; border-radius: 4px; font-weight: 500;">
+      💻 GitHub
+    </a>
+  </div>
+  <div class="hashtag-container">
+    <span class="hashtag">#Computer Vision</span>
+    <span class="hashtag">#Spatial AI</span>
+    <span class="hashtag">#PyTorch</span>
+  </div>
+</div>
+
+<div class="project-item">
+  <div class="project-header">
+    <div class="project-name">pysphorb</div>
   </div>
   <div style="font-size: 1.05em; color: #495057; margin-bottom: 1em;">
     Python Bindings for SPHORB Feature Extractor
@@ -308,8 +330,8 @@ redirect_from:
     </a>
   </div>
     <div class="hashtag-container">
-    <span class="hashtag">#360 camera</span>
-    <span class="hashtag">#computer vision</span>
+    <span class="hashtag">#360 Camera</span>
+    <span class="hashtag">#Computer Vision</span>
     <span class="hashtag">#pybind11</span>
   </div>
 </div>
