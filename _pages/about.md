@@ -175,12 +175,22 @@ redirect_from:
 
   <div class="project-section">
     <div class="project-title">
-      On-Device LLM/VLM Agent Project
-      <span class="project-date">(February 2025 – Present)</span>
+      Preliminary Research on On-Device LLM/VLM Utilization
+      <span class="project-date">(March 2025 – October 2025)</span>
     </div>
     <ul>
-      <li>Led foundational research and development of an on-device LLM agent for cleaning robots</li>
-      <li>Focused on synthesizing performance evaluation datasets and converting diverse natural language commands into executable cleaning instructions</li>
+      <li>Developed an integrated framework for LLM/VLM model evaluation
+        <ul>
+          <li>Implemented abstraction layer by standardizing different input/output and initialization formats for Cloud API and On-device models</li>
+          <li>Designed model switching and parameter control structure based on external configuration files, enhancing model scalability and maintenance efficiency</li>
+        </ul>
+      </li>
+      <li>Conducted preliminary research on Agent systems for home environments
+        <ul>
+          <li>Generated virtual indoor environments using GPT-5 and built ground truth datasets (command-inference result pairs)</li>
+          <li>Validated scenario-specific logic of robot agents for complex natural language commands</li>
+        </ul>
+      </li>
     </ul>
     <div class="hashtag-container">
       <span class="hashtag">#LLM</span>
@@ -194,7 +204,7 @@ redirect_from:
       <span class="project-date">(February 2024 – February 2025)</span>
     </div>
     <ul>
-      <li>Improved the Global Kidnap Recovery (GKR) feature for commercial robot cleaners</li>
+      <li>Improved the Local Kidnap Recovery (LKR) feature for commercial robot cleaners</li>
       <li>Developed and optimized a robust localization algorithm by fusing Vision and LiDAR sensor data</li>
     </ul>
     <div class="hashtag-container">
