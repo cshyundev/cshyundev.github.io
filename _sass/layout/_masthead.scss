@@ -65,3 +65,18 @@
     font-weight: 700;
   }
 }
+
+/* Language toggle button */
+#lang-toggle a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2em;
+}
+
+/* Language show/hide rules */
+.lang-ko { display: none; }
+
+[data-lang="ko"] .lang-en { display: none; }
+[data-lang="ko"] .lang-ko { display: inline; }
+[data-lang="ko"] .lang-ko.block { display: block; }

@@ -2,6 +2,14 @@
 
 <!-- start custom head snippets -->
 
+<!-- Language preference: set data-lang before render to prevent FOUC -->
+<script>
+  (function(){
+    var l = localStorage.getItem('preferred-lang') || 'en';
+    document.documentElement.setAttribute('data-lang', l);
+  })();
+</script>
+
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
